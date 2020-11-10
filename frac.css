@@ -1,0 +1,421 @@
+h5{
+	color: #006BAE;
+}
+.right{
+	text-align:right;
+	padding-right:10px;
+}
+.center{text-align:center;}
+.screen{
+	background-color:#eeeeee;
+	border-radius: 5px;
+}
+.msg{
+	color:#CA6C18;
+	font-weight: bold;
+	font-style: italic;
+}
+.clearfloat{clear: both;
+	height: 10px;
+}
+
+/*NAVBAR */
+.navbar-nav a{
+	font-family:Muli,Roboto, Arial!important;
+	color:#565656!important;
+	font-weight:550!important;
+	font-size:14px!important;
+}
+/* VIEWS */
+.gv-table-view th {
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+	background-color:#006BAE;
+	border-right: 1px dotted #ffffff;
+}
+td.firstcol{padding-left: 5px;}
+
+.exportbutton{
+	float:right;
+	background-color: #006BAE;
+	color: #ffffff;
+	border-radius:10px;
+	padding: 10px 20px;
+	font-size: 1.1em;
+	margin-bottom: 10px;
+}
+a.exportbutton:hover, .exportbutton a:hover{
+	text-decoration: none!important;
+}
+
+.gv-table-view tr {text-align:center;}
+.gv-table-view td{padding-right :5px;padding-bottom: 5px;}
+.firstcol{color:#27BCCE;text-align:left;font-size: 1.2em;}
+.gv-table-view tr:nth-child(odd){background-color:#d1ebfc;}
+.gv-table-view tr:nth-child(even){background-color:#ffffff;}
+.gv-table-view a{
+	color:#16A34A;
+	text-decoration:underline;}
+
+/* Data Tables */
+#dt_table,.datatable, .grouptable{
+	font-family:"Calibri";
+	width:  100%;
+}
+.runtable{
+	font-family:"Calibri";
+	width:  70%;
+}
+#dt_table td,.datatable td, .runtable td, .grouptable td{
+	padding:10px;
+}
+#dt_table th,.datatable th, .runtable th{
+	background-color:#16A34A;
+	color:#ffffff!important;
+	border:1px solid #ffffff;
+	padding:20px;
+}
+#dt_table tr:nth-child(odd), .datatable tr:nth-child(odd){
+	background-color:#dcffe9;
+}
+#dt_table tr:nth-child(even), .datatable tr:nth-child(even){background-color:#ffffff;}
+
+.runtable tr:nth-child(odd){
+	background-color:#dcffe9;
+}
+.runtable tr:nth-child(even){background-color:#ffffff;}
+.tablefooter{
+		background-color:#16A34A;
+	color:#ffffff;
+	height:10px;
+}
+.tablespan{
+	text-align:center;
+	font-size:1.2em;
+	background-color:#16A34A!important;
+}
+
+/*group table to make groups of schools stand out*/
+.grouptable thead, .grouptable th{
+	color:#ffffff;
+	background-color:#16A34A!important;
+	padding: 10px;
+	text-align:center;
+}
+.groupodd{
+	background-color:#f6fbf8;
+	color:#ffffff;
+}
+.groupodd1{
+	background-color:#f6fbf8;
+	color:#16A34A;
+}
+.schoolodd{
+	background-color:#f6fbf8;
+	color:#16A34A;
+	border-top: 1px solid #16A34A;
+}
+.groupeven{
+	background-color:#dcffe9;
+	color: #dcffe9;
+}
+.groupeven1{
+	background-color:#dcffe9;
+	color:#6b6b6b;
+}
+.schooleven{
+	background-color:#dcffe9;
+	color:#6b6b6b;
+	border-bottom: 3px solid #ffffff;
+}
+.grouptable .stablespan{
+	text-align:center;
+	font-size:1.2em;
+	background-color:#0c6d30!important;
+}
+.grouptable .shead{
+	background-color:#0C6D30!important;
+}
+/* BREAKEVEN */
+#beinput{
+	width: 60%;
+	float: left;
+	background-color:#eeeeee;
+	font-size: .8em;
+	margin-right:5px;
+}
+#beresults{
+	width: 37%;
+	float: right;
+	background-color:#006BAE;
+	padding:10px;	
+	font-size:1em;
+}
+.InputHeader{
+	background-color:#7297A9;
+	text-align:center;
+	font-size: 1.5em;
+	color:#ffffff;
+	font-weight:bold;
+	padding:10px;
+	margin:0px;
+}
+#beresults .InputHeader{
+	background-color:#006AAD;
+}
+#beresults table{
+	background-color:#ffffff;
+	font-size:.9em;
+}
+#beresults .labelcell{
+	text-align:right;
+	padding-right:5px;
+}
+#beresults th{
+	background-color:#006BAE;
+	/*border-bottom: 5px solid #006BAE;*/
+	color:#ffffff;
+	margin: 20px 0;
+}
+#beresults input{
+	text-align:right;
+}
+.labelcell{
+	width:30%;
+	font-weight:bold;
+}
+.toplabelcell{
+	width:20%;
+	font-weight:bold;
+}
+.inputcell{
+	width:15%;
+	float:righ;
+	font-size:.8em;
+/*	background-color:#7297A9;
+	padding:10px;	*/
+
+}
+.betable1 tr{margin-bottom:40px;}
+.betable1 th{
+	color:#ffffff; 
+	background-color:#7297A9;
+	padding: 5px;
+}
+table.betable2{
+	background-color:#e0edf6!important;
+	margin:20px;
+	border-collapse: separate;
+	border-spacing:0 20px;
+}
+table.betable1{
+	margin:10px;
+}
+.betable2 input, .betable1 input{
+	font-size:.9em;
+	text-align:right;
+	font-weight:semi-bold;
+	color:#000000;
+}
+.betable1 input{
+	font-size:.9em;
+}
+
+.outputcell{
+	background-color:#FCFCFC;
+	border: 1px #eeeeee inset;
+	text-align:right;
+	padding:5px;
+	border-radius:10px;
+	margin:10px;
+	width:15%;
+}
+.beform label.gfield_label{
+	width:40%!important;
+}
+.beform .instruction{margin-left:15%!important}
+
+
+/* Distrcit */
+#district{
+	width:100%;
+	font-size:.8em;
+}
+
+.overview table{
+	padding:10px;
+	background-color: #0069AB;
+	color: #ffffff;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.meal th{
+	text-align:center;
+}
+#district.labelcell{
+	font-size.8em!important;
+}
+#district input{
+	text-align:right;
+}
+#Breakfast, #Lunch{
+	width: 45%;
+	float:left;
+  background-color:#f2f8fb;
+	padding: 10px;
+	border-radius: 5px;
+}
+#Snack, #Dinner{
+	width:45%;
+	background-color:#e7f3f8;
+	padding: 10px;
+	float:right;
+	border-radius: 10px;
+}
+
+#detail_tables{
+	width: 50%;
+	background-color:#eeeeee;
+	padding:10px;
+	float: left;
+}
+
+#summary_table{
+	width: 45%;
+	background-color:#eeeeee;
+	padding:10px;
+	float: right;
+	border-radius:10px;
+}
+
+/*District Forms */
+#revenue input{color:#7297A9;
+background-color:#ffffff;
+}
+
+#revenue input:read-only{background-color:#b7d5e3;
+color:#ffffff;
+}
+input.calc{background-color:#7297A9!important;
+color:#ffffff!important;
+}
+
+input[type=submit]:hover{
+	background-color:#006BAE!important;
+}
+
+input[type=submit]{
+	background-color: #17A34B!important;
+	color: #ffffff;
+	padding: 15px;
+	text-align: center;
+	font-size:1.2em;
+	font-weight:bold;
+	border-radius: 15px!important;
+	margin-top:30px;
+	margin-left:auto!important;
+	margin-right:auto!important;
+}
+/*Breadcrumbs */
+
+.breadcrumb { 
+  list-style: none; 
+  overflow: hidden; 
+  font: 18px Sans-Serif;
+	padding: 0px;
+	background-color:#ffffff;
+}
+.breadcrumb li { 
+  float: left; 
+}
+.breadcrumb li a {
+  color: white;
+  text-decoration: none; 
+  padding: 10px 0 10px 65px;
+  background: #006BAE; 
+  background: hsla(203,100%,34%,1); 
+  position: relative; 
+  display: block;
+  float: left;
+}
+.breadcrumb li a::after { 
+  content: " "; 
+  display: block; 
+  width: 0; 
+  height: 0;
+  border-top: 50px solid transparent; /* Go big on the size, and let overflow hide */
+  border-bottom: 50px solid transparent;
+  border-left: 30px solid hsla(203,100%,34%,1);
+  position: absolute;
+  top: 50%;
+  margin-top: -50px; 
+  left: 100%;
+  z-index: 2; 
+}
+.breadcrumb li a::before { 
+  content: " "; 
+  display: block; 
+  width: 0; 
+  height: 0;
+  border-top: 50px solid transparent;       
+  border-bottom: 50px solid transparent;
+  border-left: 30px solid white;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px; 
+  margin-left: 1px;
+  left: 100%;
+  z-index: 1; 
+}
+
+.breadcrumb li:first-child a {
+  padding-left: 10px;
+}
+.breadcrumb li:nth-child(2) a       { background:        hsla(203,100%,44%,1); }
+.breadcrumb li:nth-child(2) a:after { border-left-color: hsla(203,100%,44%,1); }
+.breadcrumb li:nth-child(3) a       { background:        hsla(203,100%,54%,1); }
+.breadcrumb li:nth-child(3) a:after { border-left-color: hsla(203,100%,54%,1); }
+.breadcrumb li:nth-child(4) a       { background:        hsla(203,100%,64%,1); }
+.breadcrumb li:nth-child(4) a:after { border-left-color: hsla(203,100%,64%,1); }
+.breadcrumb li:nth-child(5) a       { background:        hsla(203,100%,74%,1); }
+.breadcrumb li:nth-child(5) a:after { border-left-color: hsla(203,100%,74%,1); }
+
+
+.breadcrumb li a:hover { 
+  background: hsla(142, 76%, 36%, 1); 
+}
+.breadcrumb li a:hover:after { 
+  border-left-color: hsla(142, 76%, 36%, 1) !important; 
+}
+
+/* form */
+label.gfield_label{
+	font-family:Carme!important;
+	font-size: 1em!important;
+}
+.gfield_description{
+		font-family:"Cabin";
+	font-size: .8em!important;
+}
+
+.gform_wrapper .gform_footer input.button, .gform_button{
+	font-family:Carme;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin:auto!important;
+	display:block;
+}
+#gform_submit_button{
+	font-family:Carme!important;
+}
+#gform_fields_login input{background-color:#ffffff;}
+
+.gform_wrapper input{
+	background-color:#eeeeee;
+	border-radius: 15px;
+}
+
+.gfield_select{background-color: #eeeeee;}
